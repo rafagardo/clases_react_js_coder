@@ -1,0 +1,23 @@
+.custom-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff; /* Azul primario */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+    transform: translateY(-2px); /* Pequeño efecto de elevación */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button:active {
+    transform: translateY(0); /* Restaura al hacer clic */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
